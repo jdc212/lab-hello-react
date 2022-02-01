@@ -1,10 +1,14 @@
+import ironhacklogo from './images/ironhack-logo.png';
+import menutop from './images/menu-top.png';
+
+
 function Navbar () {
 
     return (
         
     <div className= "Navbar">
-        <img src="./images/ironhack-logo.png" alt="ironhack logo"/> 
-        <img src="./images/menu-top.png" alt="menu" /> 
+        <img src={ironhacklogo} alt="ironhack logo" />
+        <img src={menutop} alt="menu" /> 
     </div>
 
     
